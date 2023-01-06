@@ -44,7 +44,7 @@ main{
 
 
 .donate-form input[type=number]{
-    width: 100%; display: inline-block; padding: 10px; margin-bottom: 20px; background: #fff; border:0; border-bottom: 1px solid #dedede; text-align: center;
+    width: 100%; display: inline-block; padding: 10px; margin: 30px 0; background: #fff; border:0; border-bottom: 1px solid #dedede; text-align: center;
 }
 
 .custom-input{
