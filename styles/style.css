@@ -167,7 +167,7 @@ main{
 /* Donate form styles  */
 .donate-form{padding: 20px;}
 .amount-container{
-    display: flex; flex-wrap:wrap; gap:10px; justify-content:space-around; 
+    display: flex; flex-wrap:wrap; gap:10px; justify-content:center; 
 }
 
 .amount{text-align: center; font-size: 20px; font-weight: 800; color:#707070; padding: 20px 15px; border: 1px solid #dedede; background: #FAFAFA;}
@@ -190,7 +190,7 @@ main{
 
 .donate-plans .primary-text{padding: 0}
 .plans-container{
-    display: flex; flex-wrap: wrap; gap:20px
+    display: flex; flex-wrap: wrap; gap:35px
 }
 
 .plan{
@@ -235,7 +235,7 @@ main{
 
 .newslater .primary-text{padding: 0;}
 .subscription-form{
-    background: #FFF4D6; padding: 40px 0; text-align: center; border-radius: 10px;
+    background: #FFF4D6; padding: 40px 10px; text-align: center; border-radius: 10px;
 }
 
 .newslater input[type=email]{
