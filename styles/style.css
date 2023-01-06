@@ -6,12 +6,15 @@
     background: #FF5959; color: #fff; padding: 14px 25px; border-radius: 5px; border:0; font-size: 16px;
 }
 
+.btn-primary:hover{
+    background: #ff5950c2; cursor: pointer;
+}
 .primary-text{
-    color: #707070; text-align: center; font-weight: 500;
+    color: #707070; text-align: center; font-weight: 500; margin: 20px 0 30px;
 }
 
 .section-title{
-    font-size: 30px; font-weight: 800; text-align: center; color: #121212;
+    font-size: 32px; font-weight: 800; text-align: center; color: #121212;
 }
 
 main{
@@ -27,4 +30,117 @@ main{
 
 .banner-text{
     color: #fff; font-size: 20px; margin: 20px 100px 30px; text-align: center;
+}
+
+
+/* Donate form styles  */
+.donate-form{padding: 100px  200px;}
+.amount-container{
+    display: flex; align-items: center; gap:20px; justify-content:space-around;
+}
+
+.amount{text-align: center; font-size: 25px; font-weight: 800; color:#707070; padding: 25px 20px; border: 2px solid #FAFAFA; background: #FAFAFA;}
+.amount:hover{color: #FF5959; border: 2px solid #FF5959; border-radius: 5px; cursor: pointer; background: #FFEEEE;}
+
+
+.donate-form input[type=number]{
+    width: 100%; display: inline-block; padding: 10px; margin-bottom: 20px; background: #fff; border:0; border-bottom: 1px solid #dedede; text-align: center;
+}
+
+.custom-input{
+    text-align: center;
+}
+
+/* Donate plan style  */
+.donate-plans{
+    padding: 0 100px 100px;
+}
+
+.donate-plans .primary-text{padding: 0 100px;}
+.plans-container{
+    display: flex; gap: 25px;
+}
+
+.plan{
+    padding: 35px 25px; background: #FFEEEE; box-shadow:0px 6px 50px rgba(0, 0, 0, 0.06); border-radius: 8px; border: 1px solid transparent;
+}
+.plan:nth-child(1){
+    background: #EDF5F6; 
+}
+
+.plan:hover{
+    border: 1px solid #FF5959; cursor: pointer;
+}
+.plan-title{
+    font-weight: 700; font-size: 20px; color: #121212; margin: 20px 0 10px;
+}
+
+.plan-description{
+    color: #707070; font-size: 16px;
+}
+
+/* Knowladge base styles  */
+.knowladge-base{
+    padding: 0 100px;
+}
+
+.knowladge-items{
+    display: flex; justify-content: space-between; align-items: center; margin-top: 50px;
+}
+
+.content{
+    width: 50%; padding: 20px 50px 20px 0;
+}
+
+.content:nth-child(2){
+    width: 50%; padding: 20px 0 20px 55px;
+}
+
+.know-image{
+    width: 420px; height: 430px;
+}
+
+.knowladge-title{
+    font-size: 35px; font-weight: 800; line-height: 40px;
+}
+
+.knowladge-description{
+    color: #707070; font-size: 16px; margin: 20px 0;
+}
+
+/* Newslater section  */
+
+.newslater{
+    margin: 80px 250px;
+}
+
+.newslater .primary-text{padding: 0 35px;}
+.subscription-form{
+    background: #FFF4D6; padding: 60px; text-align: center; border-radius: 10px;
+}
+
+.newslater input[type=email]{
+    width: 200px; display: inline-block; padding: 10px; margin: 0; background: #D9D9D9; border: 0; border-radius: 5px 0 0 5px;
+}
+
+.newslater input[type=submit]{
+    background:#FF5959; color: #fff; border: 0; padding:10px; margin-left: -5px; display: inline-block; border-radius: 0 5px 5px 0; cursor: pointer;
+}
+
+.newslater input[type=submit]:hover{
+    background: #ff5950c2;
+}
+
+/* footer styles */
+
+.footer{
+    background-color: #0B0D17; padding: 50px; text-align: center;
+}
+
+.footer-title{
+    color:#C9484A
+}
+
+.footer-text{
+    color: #fff;
 }
