@@ -151,40 +151,23 @@ main{
 
 
 @media only screen and (max-width: 768px) {
-/* Common Styles */
-.btn-primary{
-    background: #FF5959; color: #fff; padding: 14px 25px; border-radius: 5px; border:0; font-size: 16px;
-}
-
-.btn-primary:hover{
-    background: #ff5950c2; cursor: pointer;
-}
-.primary-text{
-    color: #707070; text-align: center; font-weight: 500; margin: 20px 0 30px;
-}
-
-.section-title{
-    font-size: 32px; font-weight: 800; text-align: center; color: #121212;
-}
-
-
 
 /* header styles */
 .header{
-    min-height: 400px; align-items: center; display: flex; flex-direction: column; justify-content: center; background: url(../images/donation5.jpg), linear-gradient(#fff, #000);; background-size: cover; background-position: center center; background-blend-mode: multiply; padding:40px 20px; width: 100%;
+    min-height: 400px; align-items: center; display: flex; flex-direction: column; justify-content: center; background: url(../images/donation5.jpg), linear-gradient(#fff, #000);; background-size: cover; background-repeat: no-repeat; background-position: center; background-blend-mode: multiply; padding:0; width: 100%;
 }
 
 .banner-title{color: #fff; font-size: 40px; font-weight: 800; text-align: center;} 
 
 .banner-text{
-    color: #fff; font-size: 16px; text-align: center;
+    color: #fff; font-size: 16px; text-align: center; margin:20px 20px 30px;
 }
 
 
 /* Donate form styles  */
 .donate-form{padding: 20px;}
 .amount-container{
-    display: flex; flex-wrap:wrap; center; gap:10px; justify-content:space-around; 
+    display: flex; flex-wrap:wrap; gap:10px; justify-content:space-around; 
 }
 
 .amount{text-align: center; font-size: 25px; font-weight: 800; color:#707070; padding: 10px; border: 2px solid #FAFAFA; background: #FAFAFA;}
@@ -233,7 +216,7 @@ main{
 
 
 .know-image{
-    width: 100%;
+    width: 100%; height: 320px;
 }
 
 .knowladge-title{
@@ -252,7 +235,7 @@ main{
 
 .newslater .primary-text{padding: 0;}
 .subscription-form{
-    background: #FFF4D6; padding: 0; text-align: center; border-radius: 10px;
+    background: #FFF4D6; padding: 40px 0; text-align: center; border-radius: 10px;
 }
 
 .newslater input[type=email]{
