@@ -235,15 +235,15 @@ main{
 
 .newslater .primary-text{padding: 0;}
 .subscription-form{
-    background: #FFF4D6; padding: 40px 10px; text-align: center; border-radius: 10px;
+    background: #FFF4D6; padding: 40px 5px; text-align: center; border-radius: 10px;
 }
 
 .newslater input[type=email]{
-    width: 220px; display: inline-block; padding: 10px; margin: 0; background: #D9D9D9; border: 0; border-radius: 5px 0 0 5px;
+    width: 200px; display: inline-block; padding: 12px; margin: 0; background: #D9D9D9; border: 0; border-radius: 5px 0 0 5px;
 }
 
 .subs-btn{
-    background:#FF5959; color: #fff; border: 0; padding:10px; margin-left: -5px; display: inline-block; border-radius: 0 5px 5px 0; cursor: pointer;
+    background:#FF5959; color: #fff; border: 0; padding:12px; margin-left: -5px; display: inline-block; border-radius: 0 5px 5px 0; cursor: pointer;
 }
 
 .subs-btn:hover{
